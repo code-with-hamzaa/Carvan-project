@@ -1,0 +1,283 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   padding: 0px;
+   margin: 0px;
+
+}
+
+header{
+   background-color: gray;
+   padding: 10px;
+ 
+}
+
+.nav-link:hover{
+	background-color: turquoise;
+
+}
+
+ a:hover{
+	background-color: turquoise;
+}
+
+.dropdown-item:hover{
+	background-color: turquoise;
+}
+
+
+
+h1 , h2 {
+    text-align: center;
+	margin: 10px;
+}
+p{
+    padding: 0px 10px;
+    margin:  0px 10px;
+}
+
+p:hover{
+   color: white;
+   background-color: gray;
+
+}
+img{
+	padding: 10px;
+}
+
+img:hover{
+	border: 2px solid gray;
+}
+
+ 
+/* Form styling */
+form {
+	padding: 10px;
+	 border-radius: 8px;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	
+ }
+ 
+ label {
+	 display: block;
+	 margin-bottom: 8px;
+ }
+ 
+ input,
+ textarea {
+	 width: 100%;
+	 padding: 8px;
+	 margin-bottom: 16px;
+	 box-sizing: border-box;
+	 border: 1px solid #ccc;
+	 border-radius: 4px;
+ }
+ 
+ input[type="submit"] {
+	 background-color: #4caf50;
+	 color: white;
+	 cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+	 background-color: #45a049;
+ }
+ 
+ .error {
+	 color: red;
+	 font-size: 14px;
+	 margin-top: 4px;
+ }
+ 
+ /* Font and general styling */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+ 
+ * {
+	 font-family: Roboto;
+	 padding: 0;
+	 margin: 0;
+ }
+ 
+ /* Footer styling */
+ .footer-distributed {
+	 background: #444;
+	 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	 box-sizing: border-box;
+	 width: 100%;
+	 font: bold 16px sans-serif;
+	 text-align: left;
+	 padding: 50px 60px 40px;
+	 overflow: hidden;
+ }
+ 
+ /* Footer left section */
+ .footer-distributed .footer-left {
+	 float: left;
+ }
+ 
+ .footer-distributed h3 {
+	 color: #ffffff;
+	 font: normal 36px 'Roboto', cursive;
+	 margin: 0 0 10px;
+ }
+ 
+ .footer-distributed h3 span {
+	 color: #5383d3;
+ }
+ 
+ /* Footer links section */
+ .footer-distributed .footer-links {
+	 color: #ffffff;
+	 margin: 0 0 10px;
+	 padding: 0;
+ }
+ 
+ .footer-distributed .footer-links a {
+	 display: inline-block;
+	 line-height: 1.8;
+	 text-decoration: none;
+	 color: inherit;
+ }
+ 
+ .footer-distributed .footer-company-name {
+	 color: #8f9296;
+	 font-size: 14px;
+	 font-weight: normal;
+	 margin: 0;
+ }
+ 
+ /* Footer social icons section */
+ .footer-distributed .footer-icons {
+	 margin-top: 40px;
+ }
+ 
+ .footer-distributed .footer-icons a {
+	 display: inline-block;
+	 width: 35px;
+	 height: 35px;
+	 cursor: pointer;
+	 background-color: #33383b;
+	 border-radius: 2px;
+	 font-size: 20px;
+	 color: #ffffff;
+	 text-align: center;
+	 line-height: 35px;
+	 margin-right: 3px;
+	 margin-bottom: 5px;
+ }
+ 
+ /* Footer right section */
+ .footer-distributed .footer-right {
+	 float: right;
+ }
+ 
+ .footer-distributed .footer-right p {
+	 display: inline-block;
+	 vertical-align: top;
+	 margin: 15px 42px 0 0;
+	 color: #ffffff;
+ }
+ 
+ /* Contact form styling within the footer */
+ .footer-distributed form {
+	 display: inline-block;
+ }
+ 
+ .footer-distributed form input,
+ .footer-distributed form textarea {
+	 display: block;
+	 border-radius: 3px;
+	 box-sizing: border-box;
+	 background-color: #1f2022;
+	 box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	 border: none;
+	 resize: none;
+	 font: inherit;
+	 font-size: 14px;
+	 font-weight: normal;
+	 color: #d1d2d2;
+	 width: 400px;
+	 padding: 18px;
+ }
+ 
+ .footer-distributed ::-webkit-input-placeholder {
+	 color: #5c666b;
+ }
+ 
+ .footer-distributed ::-moz-placeholder {
+	 color: #5c666b;
+	 opacity: 1;
+ }
+ 
+ .footer-distributed :-ms-input-placeholder {
+	 color: #5c666b;
+ }
+ 
+ .footer-distributed form input {
+	 height: 55px;
+	 margin-bottom: 15px;
+ }
+ 
+ .footer-distributed form textarea {
+	 height: 100px;
+	 margin-bottom: 20px;
+ }
+ 
+ .footer-distributed form button {
+	 border-radius: 3px;
+	 background-color: #33383b;
+	 color: #ffffff;
+	 border: 0;
+	 padding: 15px 50px;
+	 font-weight: bold;
+	 float: right;
+ }
+ 
+ /* Responsive styling */
+ @media (max-width: 1000px) {
+	 .footer-distributed {
+		 font: bold 14px sans-serif;
+	 }
+ 
+	 .footer-distributed .footer-company-name {
+		 font-size: 12px;
+	 }
+ 
+	 .footer-distributed form input,
+	 .footer-distributed form textarea {
+		 width: 250px;
+	 }
+ 
+	 .footer-distributed form button {
+		 padding: 10px 35px;
+	 }
+ }
+ 
+ @media (max-width: 800px) {
+	 .footer-distributed {
+		 padding: 30px;
+	 }
+ 
+	 .footer-distributed .footer-left,
+	 .footer-distributed .footer-right {
+		 float: none;
+		 max-width: 300px;
+		 margin: 0 auto;
+	 }
+ 
+	 .footer-distributed .footer-left {
+		 margin-bottom: 40px;
+	 }
+ 
+	 .footer-distributed form {
+		 margin-top: 30px;
+	 }
+ 
+	 .footer-distributed form {
+		 display: block;
+	 }
+ 
+	 .footer-distributed form button {
+		 float: none;
+	 }
+ }
+ 
